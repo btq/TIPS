@@ -7,6 +7,7 @@
  87.5% is the given value - check this
 
  ## Effect of Program
+ 
  Hypothesis: program doesn't change BP & SPo2
 
  Effect of the Program by condition & # of conditions
@@ -27,7 +28,7 @@
 
  ## How long until patient 'feels' better?
 
- ## People to meet ##
+ ## People to meet
 
  Linda Gerber
 
@@ -42,7 +43,9 @@ all data files in /data:
 *	Diastolic
 *	Systolic
 *	HeartRate
+
 **Demographic_Info2.xlsx** - demographics on all TIPS participants use '_btqedit' version
+
 **Demographic_Info2_btqedit.xlsx** - 2 sheets, only use the first
 *	TIPS_Number - TIPS ID
 *	Age
@@ -62,6 +65,7 @@ all data files in /data:
 *	Renal
 *	Alzheimers
 *	Depression
+
 **demographics 6-22-16.xlsx** - 3 sheets, first is enrollees
  * *Enrollees*
 ..*	PIN - external PIN
@@ -95,6 +99,7 @@ all data files in /data:
 *  *Sheet2*
 ..*  	PIN
 ..*  	Enrolled/Discharged & reason column
+
 **messages 6-22-16.xlsx** - responses from 5 questions, 3 sheets
 *  *messages*
 ..*  	EndUserId - TIPS ID
@@ -113,10 +118,13 @@ all data files in /data:
 *  *IDLookup*
 ..*  	EndUserId - TIPS ID
 ..*  	KioskPin - patient PIN
+
 **Messages_reworked.xlsx** - responses from 5 questions recoded, not too useful
 
-Pre-TIPS_Hospitalization_record.xlsx
+**Pre-TIPS_Hospitalization_record.xlsx**
 
-readings 6-22-16.xlsx
-SpO2_HR_Readings.xlsx
-Weight_Readings.xlsx
+**readings 6-22-16.xlsx**
+
+**SpO2_HR_Readings.xlsx**
+
+**Weight_Readings.xlsx**
