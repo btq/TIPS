@@ -68,56 +68,56 @@ all data files in /data:
 
 **demographics 6-22-16.xlsx** - 3 sheets, first is enrollees
  * *Enrollees*
-..*	PIN - external PIN
-..*	Status - ? A/D
-..*	Gender
-..*	DOB
-..*	Age
-..*	Language
-..*	Living Set-Up
-..*	Medicaid
-..*	Hospitalized ?
-..*	RPM Hospitalized ?
-..*	RPM Falls ?
-..*	Rehospitalized ?
-..*	RPM Rehospitalized ?
-..*	CHF
-..*	COPD
-..*	Diabetes
-..*	Hypertension
-..*	Stroke
-..*	Hypoglycemia
-..*	Falls
-..*	Liver Disease
-..*	Hypotension
-..*	Obesity
-..*	Coronary Artery Disease
-..*	Fractures
-..*	Renal
-..*	Alzheimers
-..*	Depression
+  *	PIN - external PIN
+  *	Status - ? A/D
+  *	Gender
+  *	DOB
+  *	Age
+  *	Language
+  *	Living Set-Up
+  *	Medicaid
+  *	Hospitalized ?
+  *	RPM Hospitalized ?
+  *	RPM Falls ?
+  *	Rehospitalized ?
+  *	RPM Rehospitalized ?
+  *	CHF
+  *	COPD
+  *	Diabetes
+  *	Hypertension
+  *	Stroke
+  *	Hypoglycemia
+  *	Falls
+  *	Liver Disease
+  *	Hypotension
+  *	Obesity
+  *	Coronary Artery Disease
+  *	Fractures
+  *	Renal
+  *	Alzheimers
+  *	Depression
 *  *Sheet2*
-..*  	PIN
-..*  	Enrolled/Discharged & reason column
+  *  	PIN
+  *  	Enrolled/Discharged & reason column
 
 **messages 6-22-16.xlsx** - responses from 5 questions, 3 sheets
 *  *messages*
-..*  	EndUserId - TIPS ID
-..* 	RespondedOn
-..*  	Question
-..*  	Response
+  *  	EndUserId - TIPS ID
+  * 	RespondedOn
+  *  	Question
+  *  	Response
 *  *NewMessages* - not sure how this is different from messages sheet
-..*    EndUserId
-..*    RespondedOn
-..*    Question
-..*    Response
-..*    ID - patient PIN
-..*    Date
-..*    Month
-..*    UniqueVisit
+  *    EndUserId
+  *    RespondedOn
+  *    Question
+  *    Response
+  *    ID - patient PIN
+  *    Date
+  *    Month
+  *    UniqueVisit
 *  *IDLookup*
-..*  	EndUserId - TIPS ID
-..*  	KioskPin - patient PIN
+  *  	EndUserId - TIPS ID
+  *  	KioskPin - patient PIN
 
 **Messages_reworked.xlsx** - responses from 5 questions recoded, not too useful
 
