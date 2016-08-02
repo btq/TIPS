@@ -6,7 +6,7 @@
  
  87.5% is the given value - check this
 
- ## Effect of Program
+## Effect of Program
  
  Hypothesis: program doesn't change BP & SPo2
 
@@ -14,7 +14,7 @@
  
  5 Question metrics - look at these
 
- ## Hospitalization
+## Hospitalization
 
  Is the program reducing rehospitalization?
  
@@ -26,15 +26,15 @@
  
  Number of ER visits
 
- ## How long until patient 'feels' better?
+## How long until patient 'feels' better?
 
- ## People to meet
+## People to meet
 
  Linda Gerber
 
- ## Give every patient an Elixhauser comorbidity score ##
+## Give every patient an Elixhauser comorbidity score ##
 ---
-## Files list and description ##
+## Files list and description
 
 all data files in /data:
 
