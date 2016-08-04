@@ -69,7 +69,7 @@ all data files in /data:
 **demographics 6-22-16.xlsx** - 3 sheets, first is enrollees
  * *Enrollees*
   *	PIN - external PIN
-  *	Status - ? A/D
+  *	Status - A/D = active/discharged
   *	Gender
   *	DOB
   *	Age
@@ -122,9 +122,30 @@ all data files in /data:
 **Messages_reworked.xlsx** - responses from 5 questions recoded, not too useful
 
 **Pre-TIPS_Hospitalization_record.xlsx**
-
+* *Sheet1*
+  * TIPS Number
+  * PIN
+  * Medicaid - ? 0/1/2 not sure the coding here
+  * PostTIPS Hospitalized - ? 1/2
+  * PostTIPS Rehospitalization - ? 1/2
+  * PreTIPS Hospitalized - ? 0/1/2
+  * PreTIPS Rehospitalized - ? 0/1/2
 **readings 6-22-16.xlsx**
-
+* *Key* - guide to the sheets in the file
+* *RawReadings*
+  * EndUserId - TIPS ID
+  * ReadingId
+  * TIPS ID - NOT TIPS ID - EXTERNAL ID
+  * ReadingType
+  * ReadingDate
+  * Systolic
+  * Diastolic
+  * HeartRate
+  * Weight
+  * SP02
+  * HeartRate_SP02
+  * ReadingSuppressedOn
+  * Steps
 **SpO2_HR_Readings.xlsx**
 
 **Weight_Readings.xlsx**
