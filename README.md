@@ -126,10 +126,10 @@ all data files in /data:
   * TIPS Number
   * PIN
   * Medicaid - ? 0/1/2 not sure the coding here
-  * PostTIPS Hospitalized - ? 1/2
-  * PostTIPS Rehospitalization - ? 1/2
-  * PreTIPS Hospitalized - ? 0/1/2
-  * PreTIPS Rehospitalized - ? 0/1/2
+  * PostTIPS Hospitalized - ? 1/2 also called rpm_hospitalized
+  * PostTIPS Rehospitalization - ? 1/2 also called rpm_rehospitalized
+  * PreTIPS Hospitalized - ? 0/1/2 also called hospitalized
+  * PreTIPS Rehospitalized - ? 0/1/2 also called rehospitalized
 **readings 6-22-16.xlsx**
 * *Key* - guide to the sheets in the file
 * *RawReadings*
