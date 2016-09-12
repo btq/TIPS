@@ -1,0 +1,25 @@
+The dependent variable which measures whether a patient was hospitalized after or during the program is rpm_hospitalized. rpm_hospitalized is equal to 1 if the respondent has been hospitalized and 0 otherwise.
+We fit a logistic regression model to the data and the results are presented in Table 1.
+
+Demographics
+'living set-up' was parsed to create a 'caregiver' and 'live_alone' feature. 
+
+Participants were also asked from which chronice conditions were present in their medical history. These included: chf, copd, diabetes, hypertension, stroke, hypoglycemia, liver disease, hypotension, obesity, coronary artery disease, renal, alzheimers, depression, history of falls, history of fractures. These conditions were coded as 1 for being present and 0 otherwise.
+All missing values in the chronic conditions that were missing were assigned to zeros, indicating the participant did not have that condition. 
+
+Readings
+'compliance' is a measure of how successful the participant was in visiting every week. The formula for this measure is 1-(missed_weeks/total_weeks)
+'age' is defined as age at first visit with program
+
+Messages
+For all the questions asked of the participants, yes is encoded as 1, otherwise 0.
+
+
+cond_meas_model sheet
+The "odds ratio" for the 'medicaid' coefficient is 2.93 with a 95% confidence interval of [0.418, 1.735]. This suggests that those who are enrolled in medicaid programs are almost 3 times more likely to be hospitalized than those who are not covered by medicaid. The "odds ratio" for the feeling_trigger coefficient is 1.32 with a 95% confidence interval of [0.111, 0.455]. This suggests that those responding to not feeling well are almost 1.32 times more likely to be hospitalized than those who respond. Since the other independent variables are either insignificantly different from zero or continuous, interpretation of there magnitude has little meaning in logistic regression. 
+
+
+
+## Table 1: Logistic Regression Results
+|---|---|---|---|
+|   |Model 1|Model2|
